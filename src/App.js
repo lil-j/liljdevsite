@@ -1,11 +1,29 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubAlt, faTwitter, faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import './App.css';
 
-function App() {
-  return (
-    <div>
+class App extends React.Component {
+  componentDidMount(){
+    Events.scrollEvent.register('begin', function(to, element) {
+      console.log("begin", arguments);
+    });
+ 
+    Events.scrollEvent.register('end', function(to, element) {
+      console.log("end", arguments);
+    });
+ 
+    scrollSpy.update();
+  }
+  componentWillUnmount(){
+    Events.scrollEvent.remove('begin');
+    Events.scrollEvent.remove('end');
+  }
+
+  render() {
+    return (
+      <div>
       <div class="center-div">
         <div className="container-fluid text-center">
           <div className="row">
@@ -23,6 +41,9 @@ function App() {
       </div>
 
       <div className="about-me">
+        <Link to="about-me" spy={true} smooth={true} duration={800} >
+          <h1 className="text-center arrowdiv"><span className="arrow">↓</span></h1>
+        </Link>
         <br/>
         <br/>
         <div className="container">
@@ -48,6 +69,11 @@ function App() {
       <div className="bottom" style={{'background-color': '#1a1a1a'}}><br/><br/></div>
     </div>
     )
+  }
 }
+
+
+
+
 
 export default App;

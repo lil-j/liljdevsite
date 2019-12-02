@@ -60,6 +60,17 @@ color:white;
   background-color:#9bd3cb;
 }
 
+.arrow{
+  cursor:pointer;
+  transition:0.3s;
+  width:aud
+}
+.arrowdiv{
+  transform: translate(0,-100%);
+}
+.arrow:hover{
+  color:#9bd3cb !important;
+}
 @media (max-width: 767.98px) { .jake{
   font-size:300%;
 } }
