@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b23c56173462fb145b539a843b4bdf08",
+    "revision": "039312fec8d098aad5b772437da79830",
     "url": "/liljdevsite/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/liljdevsite/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "c99546e8e6e1fbf7752f",
-    "url": "/liljdevsite/static/css/main.f4af5eba.chunk.css"
+    "revision": "d41bbff78bf4148d47ec",
+    "url": "/liljdevsite/static/css/main.929b5d03.chunk.css"
   },
   {
     "revision": "09fdd8c89c0193c16813",
     "url": "/liljdevsite/static/js/2.e7423818.chunk.js"
   },
   {
-    "revision": "c99546e8e6e1fbf7752f",
+    "revision": "d41bbff78bf4148d47ec",
     "url": "/liljdevsite/static/js/main.cca69202.chunk.js"
   },
   {
