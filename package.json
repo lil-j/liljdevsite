@@ -1,7 +1,7 @@
 {
   "name": "landing-page",
   "version": "0.1.0",
-  "homepage": "https://lil-j.github.io/liljdevsite",
+  "homepage": "https://lilj.dev",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
@@ -15,7 +15,7 @@
     "react-scroll": "^1.7.14"
   },
   "scripts": {
-    "predeploy": "yarn run build",
+    "predeploy": "yarn run build && cp CNAME build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
