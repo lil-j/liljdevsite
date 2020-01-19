@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/liljdevsite/static/css/main.c07df91e.chunk.css",
-    "main.js": "/liljdevsite/static/js/main.36847f97.chunk.js",
-    "main.js.map": "/liljdevsite/static/js/main.36847f97.chunk.js.map",
-    "runtime-main.js": "/liljdevsite/static/js/runtime-main.a16ba480.js",
-    "runtime-main.js.map": "/liljdevsite/static/js/runtime-main.a16ba480.js.map",
-    "static/css/2.17e5ed98.chunk.css": "/liljdevsite/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.51c32845.chunk.js": "/liljdevsite/static/js/2.51c32845.chunk.js",
-    "static/js/2.51c32845.chunk.js.map": "/liljdevsite/static/js/2.51c32845.chunk.js.map",
-    "index.html": "/liljdevsite/index.html",
-    "precache-manifest.8e31bb7b4938986f3a1332c8c93383f5.js": "/liljdevsite/precache-manifest.8e31bb7b4938986f3a1332c8c93383f5.js",
-    "service-worker.js": "/liljdevsite/service-worker.js",
-    "static/css/2.17e5ed98.chunk.css.map": "/liljdevsite/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.c07df91e.chunk.css.map": "/liljdevsite/static/css/main.c07df91e.chunk.css.map",
-    "static/media/App.css": "/liljdevsite/static/media/Tomatoes.5eeaab68.ttf"
+    "main.css": "/static/css/main.fdf53043.chunk.css",
+    "main.js": "/static/js/main.5daa3e10.chunk.js",
+    "main.js.map": "/static/js/main.5daa3e10.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.840ac8e0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.840ac8e0.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.51c32845.chunk.js": "/static/js/2.51c32845.chunk.js",
+    "static/js/2.51c32845.chunk.js.map": "/static/js/2.51c32845.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5a0b66e97fa2a6d505bebeb00b6d3da9.js": "/precache-manifest.5a0b66e97fa2a6d505bebeb00b6d3da9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.fdf53043.chunk.css.map": "/static/css/main.fdf53043.chunk.css.map",
+    "static/media/App.css": "/static/media/Tomatoes.5eeaab68.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.a16ba480.js",
+    "static/js/runtime-main.840ac8e0.js",
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.51c32845.chunk.js",
-    "static/css/main.c07df91e.chunk.css",
-    "static/js/main.36847f97.chunk.js"
+    "static/css/main.fdf53043.chunk.css",
+    "static/js/main.5daa3e10.chunk.js"
   ]
 }
